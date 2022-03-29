@@ -29,5 +29,4 @@ EXPOSE 4000
 
 CMD [ "npm" , "run" , "dev" ] 
 
-# what the hell is this for
-
+# This would run the dev scrip inside the scripts tag
