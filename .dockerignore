@@ -1,0 +1,4 @@
+app_modules
+# this ignores the folder app_modules altogether
+*.md
+# This ignores all the files with the .md extension
