@@ -30,5 +30,8 @@ EXPOSE 4000
 #  so we are exposing the port 4000 here for the virtual machine
 
 CMD [ "npm" , "run" , "dev" ] 
+# these are the commands that are run when the container begins to run so it's different from RUN npm install
+
 
 # This would run the dev scrip inside the scripts tag
+
