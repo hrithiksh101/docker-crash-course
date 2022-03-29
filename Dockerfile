@@ -15,3 +15,19 @@ COPY package.json .
 
 # This mean copying package.json from currentFolder to working directory
 
+RUN npm install
+
+# This would be run on the command line of the working directory
+
+COPY . .
+
+# This actually means that we are copying everything
+
+EXPOSE 4000
+
+#  so we are exposing the port 4000 here for the virtual machine
+
+CMD [ "npm" , "run" , "dev" ] 
+
+# what the hell is this for
+
