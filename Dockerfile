@@ -15,6 +15,8 @@ COPY package.json .
 
 # This mean copying package.json from currentFolder to working directory
 
+#  we are doing the copying here from source to destination
+
 RUN npm install
 
 # This would be run on the command line of the working directory
